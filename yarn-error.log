@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/benediktschreter/.nvm/versions/node/v20.18.0/bin/node /Users/benediktschreter/.yarn/bin/yarn.js
+
+PATH: 
+  /opt/homebrew/Cellar/php/8.2.7_1/bin:/Users/benediktschreter/.nvm/versions/node/v20.18.0/bin:/Users/benediktschreter/.yarn/bin:/Users/benediktschreter/.config/yarn/global/node_modules/.bin:/opt/homebrew/opt/ruby@3.1/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/benediktschreter/PhpStormProjects/react-native-swipeable/node_modules/.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.18.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/benediktschreter/PhpStormProjects/react-native-swipeable/package.json: Expected double-quoted property name in JSON at position 972
+      at JSON.parse (<anonymous>)
+      at /Users/benediktschreter/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/benediktschreter/.yarn/lib/cli.js:310:30)
+      at /Users/benediktschreter/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-native-swipeable",
+    "version": "0.6.0",
+    "description": "A powerful React Native swipe component",
+    "main": "lib/index.js",
+    "scripts": {
+      "build": "make build",
+      "lint": "make lint"
+    },
+    "author": "Jeff Hanson",
+    "license": "MIT",
+    "devDependencies": {
+      "babel-cli": "^6.18.0",
+      "babel-eslint": "^7.1.1",
+      "babel-preset-latest": "^6.16.0",
+      "babel-preset-react": "^6.16.0",
+      "babel-preset-stage-0": "^6.16.0",
+      "eslint": "^3.12.0",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-babel": "^4.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.8.0"
+    },
+    "peerDependencies": {
+      "react": ">=15.2.0",
+      "react-native": ">=0.44.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshanson7/react-native-swipeable.git"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "swipe",
+      "ListView",
+      "TableView"
+    ],
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
